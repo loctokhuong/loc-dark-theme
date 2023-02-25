@@ -1,0 +1,67 @@
+{
+  "name": "Simple dark theme",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#c4c4c4",
+    "activityBarBadge.background": "#262626",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBar.background": "#262626",
+    "statusBar.background": "#262626",
+    "editorUnnecessaryCode.border": "#262626"
+  },
+  "tokenColors": [
+    {
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#9d9d9d"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#9f0b9a"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "scope": ["support.class", "entity.name"],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+
+    {
+      "scope": [
+        "meta",
+        "source"
+      ],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+
+    {
+      "scope": ["comment.line.double-slash"],
+      "settings": {
+        "foreground": "#262626"
+      }
+    },
+    {
+      "scope": [""],
+      "settings": {
+        "foreground": "#262626"
+      }
+    }
+  ]
+}

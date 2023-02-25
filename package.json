@@ -1,0 +1,22 @@
+{
+  "name": "loc-dark-theme",
+  "displayName": "loc dark theme",
+  "description": "Too bored with too much syntax highlight!",
+  "publisher": "loctokhuong",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Loc dark theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simple dark theme-color-theme.json"
+      }
+    ]
+  }
+}
