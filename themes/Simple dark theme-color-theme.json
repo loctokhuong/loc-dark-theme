@@ -1,66 +1,61 @@
 {
   "name": "Simple dark theme",
   "colors": {
-    "editor.background": "#000000",
-    "editor.foreground": "#c4c4c4",
-    "activityBarBadge.background": "#262626",
+    "editor.background": "#0F111A",
+    "editor.foreground": "#5f626c",
+    "activityBarBadge.background": "#2f313a",
     "sideBarTitle.foreground": "#bbbbbb",
-    "sideBar.background": "#262626",
-    "statusBar.background": "#262626",
-    "editorUnnecessaryCode.border": "#262626"
+    "sideBar.background": "#2f313a",
+    "statusBar.background": "#2f313a",
+    "editorUnnecessaryCode.border": "#2f313a",
   },
   "tokenColors": [
     {
       "scope": ["punctuation"],
       "settings": {
-        "foreground": "#9d9d9d"
+        "foreground": "#cccfda"
       }
     },
     {
-      "scope": ["keyword"],
+      "scope": ["keyword", "meta", "meta.function"],
       "settings": {
-        "foreground": "#9f0b9a"
+        "foreground": "#c789d6"
       }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#555555"
+        "foreground": "#878994"
       }
     },
     {
       "scope": ["support.class", "entity.name"],
       "settings": {
-        "foreground": "#555555"
+        "foreground": "#878994"
       }
     },
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "#555555"
+        "foreground": "#878994"
+      }
+    },
+
+    {
+      "scope": ["meta", "source"],
+      "settings": {
+        "foreground": "#878994"
       }
     },
 
     {
       "scope": [
-        "meta",
-        "source"
+        "comment.line.double-slash",
+        "punctuation.definition.comment",
+        "comment.block"
       ],
       "settings": {
-        "foreground": "#555555"
-      }
-    },
-
-    {
-      "scope": ["comment.line.double-slash"],
-      "settings": {
-        "foreground": "#262626"
-      }
-    },
-    {
-      "scope": [""],
-      "settings": {
-        "foreground": "#262626"
+        "foreground": "#4d4f59"
       }
     }
   ]
